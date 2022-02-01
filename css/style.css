@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    list-style-type: none;
+}
+body{
+background-color: black;
+}
+header{
+    position: absolute;
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    position:fixed
+}
+.logo {
+    font-size: 25px;
+    font-family: 'Reggae One', cursive;
+    color: #FFFFFF;
+}
+.logo img{
+    padding: 0px 10px;
+    
+}
+.botonera{
+    display: flex;
+}
+.botones{
+    display: flex;
+    justify-content: space-between;
+    border-color: #f1c40f;
+    color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #f10f0f 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #f00000 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 500ms ease-in-out;
+}
+.botones:hover {
+    background-position: 0;
+}
+.botonera li{
+    padding: 15px 0px 0px 100px;
+}
+.botonera li a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-item{
+    width: 100vw;
+    height: 100vh;
+}
+.carousel-item img{
+    width: 140%;
+    height: 100%;
+}
+.carousel-item h2{
+    position: absolute;
+    left: 250px;
+    top: 230px;
+    color: white;
+    font-family: 'Reggae One', cursive;
+    font-size: 80px;
+}
+.carousel-item h3{
+    position: absolute;
+    left: 250px;
+    top: 330px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
+.carousel-item h4{
+    position: absolute;
+    left: 250px;
+    top: 400px;
+    color: red;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.carousel-item h5{
+    position: absolute;
+    left: 250px;
+    top: 440px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+section{
+    height: 100vh;
+}

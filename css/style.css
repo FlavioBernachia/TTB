@@ -197,3 +197,153 @@ header{
     left: 75%;
     width: 250px;
 }
+.members{
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    background-image: url(../img/bg_container99.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.members h2{
+    font-family: 'Reggae One', cursive;
+    font-size: 60px;
+    color: white;
+}
+
+.swiper {
+    width: 345px;
+    height: 450px;
+}
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+.img-card-member-lancer {
+    width: 245px;
+    height: 260px;
+    background-image: url(../img/lancer-grade2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-card-member-arbalist {
+    width: 245px;
+    height: 260px;
+    background-image: url(../img/arbalist-grade4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-card-member-socerer {
+    width: 245px;
+    height: 260px;
+    background-image: url(../img/sorcerer-grade2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-card-member-warrior {
+    width: 245px;
+    height: 260px;
+    background-image: url(../img/warrior-grade4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nombre-pj{
+    margin: 0px;
+}
+.clase-pj{
+    font-size: 15px;
+}
+.status-pj{
+    padding: 8px 0px 0px 0px;
+}
+.poder-pj{
+    padding: 10px 0px 0px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+}
+.poder-pj img{
+    width: 20px;
+}
+.nivel-pj{
+    font-size: 17px;
+}
+
+.swiper-slide:nth-child(1n) {
+    display: flex;
+    align-items: center;
+    background-image: url(../img/fondo-lider.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-start;
+    padding: 20px 0px 0px 0px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.swiper-slide:nth-child(2n) {
+background-image: url(../img/Fondo-Anciano.PNG);
+}
+
+.swiper-slide:nth-child(3n) {
+    background-image: url(../img/Fondo-Anciano.PNG);
+}
+
+.swiper-slide:nth-child(4n) {
+    background-image: url(../img/Fondo-Anciano.PNG);
+}
+
+.swiper-slide:nth-child(5n) {
+    background-image: url(../img/Fondo-Anciano.PNG);
+}
+
+.swiper-slide:nth-child(6n) {
+    background-image: url(../img/Fondo-Anciano.PNG);
+}
+
+.swiper-slide:nth-child(7n) {
+    background-image: url(../img/Fondo-Anciano.PNG);
+}
+
+.swiper-slide:nth-child(8n) {
+    background-image: url(../img/Fondo-Anciano.PNG);
+}
+
+.swiper-slide:nth-child(9n) {
+    background-image: url(../img/fondo-miembro.PNG);
+}
+
+.swiper-slide:nth-child(10n) {
+    background-image: url(../img/fondo-miembro.PNG);
+}
+.swiper-slide:nth-child(11n) {
+    background-image: url(../img/fondo-miembro.PNG);
+}
+.swiper-slide:nth-child(12n) {
+    background-image: url(../img/fondo-miembro.PNG);
+}
+.swiper-slide:nth-child(13n) {
+    background-image: url(../img/fondo-miembro.PNG);
+}
+.swiper-slide:nth-child(14n) {
+    background-image: url(../img/fondo-miembro.PNG);
+}
+.swiper-slide:nth-child(15n) {
+    background-image: url(../img/fondo-miembro.PNG);
+}
+.swiper-slide:nth-child(16n) {
+    background-image: url(../img/fondo-miembro.PNG);
+}
+.swiper-slide:nth-child(17n) {
+    background-image: url(../img/fondo-miembro.PNG);
+}

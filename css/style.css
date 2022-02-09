@@ -397,7 +397,7 @@ background-image: url(../img/Fondo-Anciano.PNG);
     }
     .guias{
         width: 360px;
-        height: 530px;
+        height: 100vh;
     }
     .guias h2{
         font-size:50px;

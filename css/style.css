@@ -417,6 +417,7 @@ background-image: url(../img/Fondo-Anciano.PNG);
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .card-1{
         padding: 25px;

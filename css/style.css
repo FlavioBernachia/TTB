@@ -354,16 +354,16 @@ background-image: url(../img/Fondo-Anciano.PNG);
 
 
 /*Mobile*/
-@media screen and (max-width: 767px){
+@media screen and (max-width: 360px){
     header{
         height: 80px;
-        width: 413px;
+        width: 360px;
     }
     .botonera{
         display: none;
     }
     #carouselExampleControls{
-        width: 413px;
+        width: 360px;
         height: 530px;
     }
     .carousel-item img{
@@ -396,7 +396,7 @@ background-image: url(../img/Fondo-Anciano.PNG);
         color: white;
     }
     .guias{
-        width: 412px;
+        width: 360px;
         height: 530px;
     }
     .guias h2{
@@ -410,7 +410,7 @@ background-image: url(../img/Fondo-Anciano.PNG);
         font-size:15px;
     }
     .img-card{
-        width: 150px;
+        width: 130px;
         height: 80px;
     }
     .cards{
@@ -422,28 +422,33 @@ background-image: url(../img/Fondo-Anciano.PNG);
         padding: 25px;
         position:inherit;
         top: 0px;
-        width: 190px;
+        width: 170px;
     }
     .card-2{
         padding: 25px;
         position:inherit;
         top: 0px;
-        width: 190px;
+        width: 170px;
     }
     .card-3{
         padding: 25px;
         position:inherit;
         top: 0px;
-        width: 190px;
+        width: 170px;
     }
     .card-4{
         padding: 25px;
         position:inherit;
         top: 0px;
-        width: 190px;
+        width: 170px;
+    }
+    #text-card{
+        padding: 7px;
+        font-size: 13px;
     }
     .members{
         justify-content: normal;
+        width: 360px;
     }
     .members h2{
         padding: 70px 0px;

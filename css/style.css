@@ -354,7 +354,7 @@ background-image: url(../img/Fondo-Anciano.PNG);
 
 
 /*Mobile*/
-@media screen and (max-width: 360px){
+@media screen and (max-width: 767px){
     header{
         height: 80px;
         width: 360px;

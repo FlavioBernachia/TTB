@@ -357,13 +357,13 @@ background-image: url(../img/Fondo-Anciano.PNG);
 @media screen and (max-width: 767px){
     header{
         height: 80px;
-        width: 360px;
+        width: 412px;
     }
     .botonera{
         display: none;
     }
     #carouselExampleControls{
-        width: 360px;
+        width: 412px;
         height: 530px;
     }
     .carousel-item img{
@@ -396,7 +396,7 @@ background-image: url(../img/Fondo-Anciano.PNG);
         color: white;
     }
     .guias{
-        width: 360px;
+        width: 412px;
         height: 100vh;
     }
     .guias h2{
@@ -448,7 +448,7 @@ background-image: url(../img/Fondo-Anciano.PNG);
     }
     .members{
         justify-content: normal;
-        width: 360px;
+        width: 412px;
     }
     .members h2{
         padding: 70px 0px;
